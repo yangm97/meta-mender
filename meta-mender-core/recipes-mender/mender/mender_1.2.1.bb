@@ -1,8 +1,9 @@
 require mender.inc
 
-SRC_URI = "git://github.com/mendersoftware/mender;protocol=https;branch=master"
+SRC_URI = "git://github.com/mendersoftware/mender;protocol=https;branch=1.2.x"
 
-SRCREV = "aa61dc967187258ba13454de9874f056f480084c"
+# Tag: 1.2.1
+SRCREV = "e8899d80f40c409297e15baabb671445286cb84e"
 
 # DO NOT change the checksum here without make sure that ALL licenses (including
 # dependencies) are included in the LICENSE variable below.
